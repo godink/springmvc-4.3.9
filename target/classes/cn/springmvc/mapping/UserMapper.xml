@@ -5,7 +5,7 @@
 <mapper namespace="cn.springmvc.dao.IUserDao">
 
 	<select id="selectByPrimaryKey" resultType="cn.springmvc.model.User">
-		select * from t_user where id = #{id}
+		select * from user where id = #{id}
 	</select>
 
 </mapper>
